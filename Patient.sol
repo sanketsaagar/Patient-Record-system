@@ -16,20 +16,20 @@ contract record{
         uint price;
     }
     struct doctor{
-        uint idD;
-        string nameD;
+        address idD;
+        address nameD;
         string qualification;
         string workplace;
     }
     
     mapping(uint => patient) public Patient;
     mapping(uint => medicine) public Medicine;
-    mapping(string => doctor) public Doctor;
+    mapping(address => doctor) public Doctor;
     
     
 
     //To register new doctor
-    function RegisterDoctor(uint _idD, string memory _nameD, string memory _qualification, string memory _workplace) public{
+    function RegisterDoctor(address _idD, address _nameD, string memory _qualification, string memory _workplace) public{
         Doctor[_nameD].idD = _idD;
         Doctor[_nameD].nameD = _nameD;
         Doctor[_nameD].qualification = _qualification;
@@ -100,9 +100,9 @@ contract record{
 
     
     //View Doctor details
-    function viewDoc(uint _idD) public view returns(string memory _nameD, string memory _qualification, string memory _workplace){
-        return (Doctor[_idD].nameD = _nameD,
-        Doctor[_idD].qualification = _qualification,
-        Doctor[_idD].workplace = _workplace);
+    function viewDoc(address _idD) public view returns(address _nameD, string memory _qualification, string memory _workplace){
+        return (Doctor[_idD].nameD,
+        Doctor[_idD].qualification,
+        Doctor[_idD].workplace);
     }
 }
