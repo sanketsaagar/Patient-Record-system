@@ -70,11 +70,12 @@ contract record{
     }
 
     //View patient record
-    function viewRecord(uint _idP) public view returns(string memory _nameP, uint _age , string memory _disease, address _addressP){
-        return (Patient[_idP].nameP,
-        Patient[_idP].age,
-        Patient[_idP].disease,
-        Patient[_idP].addressP);
+    function viewRecord() public view returns(uint _idP, string memory _nameP, uint _age , string memory _disease){
+        return( _idP, _nameP, _age, _disease);
+        //return (Patient[_idP].nameP,
+        //Patient[_idP].age,
+        //Patient[_idP].disease,
+        //Patient[_idP].addressP);
     }
 
     //view Medicine record
