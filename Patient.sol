@@ -72,6 +72,7 @@ contract record{
     //View patient record
     function viewRecord() public view returns(uint _idP, string memory _nameP, uint _age , string memory _disease){
         return( _idP, _nameP, _age, _disease);
+        _idP ++;
         //return (Patient[_idP].nameP,
         //Patient[_idP].age,
         //Patient[_idP].disease,
@@ -84,6 +85,7 @@ contract record{
         Medicine[_idM].expiryDate,
         Medicine[_idM].dose,
         Medicine[_idM].price);
+        _idM ++;
     }
 
     //View patient record by doctor
