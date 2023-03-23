@@ -1,6 +1,8 @@
 //SPDX-License-Identifier: GPL-3.0
 pragma solidity^0.8.13;
 contract record{
+
+    // struct of Patient
     struct patient{
         string nameP;
         uint idP;
@@ -8,6 +10,8 @@ contract record{
         string disease;
         address addressP;
     }
+
+    // struct of medicine
     struct medicine{
         uint idM;
         string nameM;
@@ -15,6 +19,8 @@ contract record{
         string dose;
         uint price;
     }
+
+    // struct of doctor
     struct doctor{
         address idD;
         address nameD;
@@ -22,8 +28,13 @@ contract record{
         string workplace;
     }
     
+    // mapping patient
     mapping(uint => patient) public Patient;
+
+    // mapping medicine
     mapping(uint => medicine) public Medicine;
+
+    //mapping doctor
     mapping(address => doctor) public Doctor;
     
     
