@@ -37,6 +37,7 @@ This function is used to add a patient's disease. It takes the below parameters:
     */
 
 4.	<b>Add medicine</b>
+
 This function is used to add medicines. It takes the below parameters:
 
     /**  
@@ -48,6 +49,7 @@ This function is used to add medicines. It takes the below parameters:
     */
 
 5.	<b>Prescribe medicine</b>
+
 This function is used by doctors to prescribe medicine to a patient. It takes the below parameters:
 
     /**
