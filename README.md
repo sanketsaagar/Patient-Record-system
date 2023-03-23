@@ -20,6 +20,7 @@ This function is used to register a new doctor to the ledger. It takes the below
     
     
 2.	<b>Register a new patient</b>
+
 This function is used to register a new patient to the ledger. It takes the below parameters:
 
     /**
