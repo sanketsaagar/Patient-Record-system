@@ -8,7 +8,7 @@
 <p>
 Features of the application:
 
-1.	Register a new doctor
+1.	<b>Register a new doctor</b>
 
 This function is used to register a new doctor to the ledger. It takes the below parameters:
     <ul>  
