@@ -11,12 +11,11 @@ Features of the application:
 1.	<b>Register a new doctor</b>
 
 This function is used to register a new doctor to the ledger. It takes the below parameters:
-            /**  
-    <ul> 
-        <li>@param _name Name of the doctor</li>
-        <li>@param _qualification Which degree he/she holds as a doctor</li>
-        <li>@param _workPlace Address of his/her hospital/clinic</li>
-    </ul> 
+    
+    /**  
+        @param _name Name of the doctor
+        @param _qualification Which degree he/she holds as a doctor
+        @param _workPlace Address of his/her hospital/clinic 
     */
     
     
@@ -30,13 +29,13 @@ This function is used to register a new patient to the ledger. It takes the belo
 
 This function is used to add a patient's disease. It takes the below parameters:
     /**
-         @param _disease Name of the disease
+        @param _disease Name of the disease
     */
 
 4.	Add medicine
 This function is used to add medicines. It takes the below parameters:
 
-/**  
+    /**  
         @param _id Id of the medicine
         @param _name name of the medicine
         @param _expiryDate ExpiryDate of the medicine
@@ -47,7 +46,7 @@ This function is used to add medicines. It takes the below parameters:
 5.	Prescribe medicine 
 This function is used by doctors to prescribe medicine to a patient. It takes the below parameters:
 
-        /**
+    /**
         @param _id Medicine Id
         @param _patient address of the patient
     */
@@ -56,14 +55,14 @@ This function is used by doctors to prescribe medicine to a patient. It takes th
 
 This function helps patients to update their age. It takes the below parameters:
     /**
-          @param _age New age of the patient
+        @param _age New age of the patient
     */
 
 7.	View patient data
    
 This function helps to view patient data stored in Blockchain. It takes the below parameters:
-/**
-         @return id Id of the patient
+    /**
+        @return id Id of the patient
         @return age Age of the patient
         @return name Name of the patient
         @return disease All the diseases of the patient
@@ -73,7 +72,7 @@ This function helps to view patient data stored in Blockchain. It takes the belo
     
 This function helps to fetch medicine details. This function below input parameters and return the details about the medicine.
 
-/**
+    /**
         @param id Id of the medicine
         @return name Name of the medicine
         @return expiryDate Expiry date of the medicine
@@ -99,7 +98,7 @@ This function helps a doctor to view patient data. It takes the below parameters
 This function helps the doctor to view patient data. It takes the below parameters:
 
 
-        /**
+    /**
         @dev View prescribed medicines to the patient 
         @param _patient address of the patient
         @return ids list of medicine id's
@@ -109,7 +108,7 @@ This function helps the doctor to view patient data. It takes the below paramete
 
 This function helps to view doctor details. It takes the below parameters:
   
-  /**
+    /**
         @param _id ID of the doctor
         @return id ID of the doctor
         @return name Name of the doctor
