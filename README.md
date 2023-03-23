@@ -7,6 +7,7 @@
 ### Below given is the project guideline
 <p>
 Features of the application:
+
 1.	Register a new doctor
 
 This function is used to register a new doctor to the ledger. It takes the below parameters:
