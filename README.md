@@ -80,13 +80,13 @@ This function helps to view patient data stored in Blockchain. It takes the belo
     
 This function helps to fetch medicine details. This function below input parameters and return the details about the medicine.
 
-    
+    /**
         @param id Id of the medicine
         @return name Name of the medicine
         @return expiryDate Expiry date of the medicine
         @return dose Dose prescribed for the medicine
         @return price Price of the medicine
-    
+    */
 
 9.	<b>View patient data by a doctor</b>
 
