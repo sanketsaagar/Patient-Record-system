@@ -19,7 +19,7 @@ This function is used to register a new doctor to the ledger. It takes the below
     */
     
     
-2.	Register a new patient
+2.	<b>Register a new patient</b>
 This function is used to register a new patient to the ledger. It takes the below parameters:
 
     /**
@@ -27,7 +27,7 @@ This function is used to register a new patient to the ledger. It takes the belo
         @param _age Age of user
     */
 
-3.	Add a patient's disease
+3.	<b>Add a patient's disease</b>
 
 This function is used to add a patient's disease. It takes the below parameters:
 
@@ -35,7 +35,7 @@ This function is used to add a patient's disease. It takes the below parameters:
         @param _disease Name of the disease
     */
 
-4.	Add medicine
+4.	<b>Add medicine</b>
 This function is used to add medicines. It takes the below parameters:
 
     /**  
@@ -46,7 +46,7 @@ This function is used to add medicines. It takes the below parameters:
         @param _price Price of the medicine 
     */
 
-5.	Prescribe medicine 
+5.	<b>Prescribe medicine</b>
 This function is used by doctors to prescribe medicine to a patient. It takes the below parameters:
 
     /**
@@ -54,14 +54,14 @@ This function is used by doctors to prescribe medicine to a patient. It takes th
         @param _patient address of the patient
     */
 
-6.	Update patient details by patient
+6.	<b>Update patient details by patient</b>
 
 This function helps patients to update their age. It takes the below parameters:
     /**
         @param _age New age of the patient
     */
 
-7.	View patient data
+7.	<b>View patient data</b>
    
 This function helps to view patient data stored in Blockchain. It takes the below parameters:
     /**
@@ -71,7 +71,7 @@ This function helps to view patient data stored in Blockchain. It takes the belo
         @return disease All the diseases of the patient
     */
 
-8.	View medicine details
+8.	<b>View medicine details</b>
     
 This function helps to fetch medicine details. This function below input parameters and return the details about the medicine.
 
@@ -83,7 +83,7 @@ This function helps to fetch medicine details. This function below input paramet
         @return price Price of the medicine
     */
 
-9.	View patient data by a doctor 
+9.	<b>View patient data by a doctor</b>
 
 This function helps a doctor to view patient data. It takes the below parameters:
 
@@ -96,7 +96,7 @@ This function helps a doctor to view patient data. It takes the below parameters
         @return disease All the diseases of the patient
     */ 
 
-10.	View prescribed medicine to the patient 
+10.	<b>View prescribed medicine to the patient</b>
 
 This function helps the doctor to view patient data. It takes the below parameters:
 
@@ -107,7 +107,7 @@ This function helps the doctor to view patient data. It takes the below paramete
         @return ids list of medicine id's
     */
 
-11.	View doctor details
+11.	<b>View doctor details</b>
 
 This function helps to view doctor details. It takes the below parameters:
   
