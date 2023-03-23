@@ -15,6 +15,7 @@ This function is used to register a new doctor to the ledger. It takes the below
         <li>@param _name Name of the doctor</li>
         <li>@param _qualification Which degree he/she holds as a doctor</li>
         <li>@param _workPlace Address of his/her hospital/clinic</li>
+    </ul>
     
     
 2.	Register a new patient
