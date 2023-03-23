@@ -21,13 +21,16 @@ This function is used to register a new doctor to the ledger. It takes the below
     
 2.	Register a new patient
 This function is used to register a new patient to the ledger. It takes the below parameters:
+
     /**
         @param _name Name of the user
         @param _age Age of user
     */
+
 3.	Add a patient's disease
 
 This function is used to add a patient's disease. It takes the below parameters:
+
     /**
         @param _disease Name of the disease
     */
