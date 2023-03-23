@@ -42,7 +42,7 @@ This function is used to add medicines. It takes the below parameters:
         @param _id Id of the medicine
         @param _name name of the medicine
         @param _expiryDate ExpiryDate of the medicine
-       @param _dose Dose prescribed to the patient
+        @param _dose Dose prescribed to the patient
         @param _price Price of the medicine 
     */
 
