@@ -60,6 +60,7 @@ This function is used by doctors to prescribe medicine to a patient. It takes th
 6.	<b>Update patient details by patient</b>
 
 This function helps patients to update their age. It takes the below parameters:
+
     /**
         @param _age New age of the patient
     */
@@ -67,6 +68,7 @@ This function helps patients to update their age. It takes the below parameters:
 7.	<b>View patient data</b>
    
 This function helps to view patient data stored in Blockchain. It takes the below parameters:
+
     /**
         @return id Id of the patient
         @return age Age of the patient
