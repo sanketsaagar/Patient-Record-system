@@ -11,7 +11,7 @@ Features of the application:
 1.	<b>Register a new doctor</b>
 
 This function is used to register a new doctor to the ledger. It takes the below parameters:
-   /**  
+    /**  
     <ul> 
         <li>@param _name Name of the doctor</li>
         <li>@param _qualification Which degree he/she holds as a doctor</li>
