@@ -12,11 +12,11 @@ Features of the application:
 
 This function is used to register a new doctor to the ledger. It takes the below parameters:
     
-    /**  
+      
         @param _name Name of the doctor
         @param _qualification Which degree he/she holds as a doctor
         @param _workPlace Address of his/her hospital/clinic 
-    */
+    
     
     
 2.	<b>Register a new patient</b>
